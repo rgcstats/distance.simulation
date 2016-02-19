@@ -335,7 +335,7 @@ simulate.ds <- function(N,theta1,theta2,f=0.5,w=1,strip.wvals=c(1:100)/100,R=10,
 }
 
 t1 <- proc.time()[3]
-R <- 2
+R <- 10000
 # all.simresults should be a data frame,
 #  columns for N, f, sampsize, detfn, overdispersion, method, MSE, bias
 all.simresults <- data.frame(N=integer(length=1),f=NA,sampsize=integer(length=1),
